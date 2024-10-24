@@ -1,3 +1,9 @@
+<?php
+include("SessionValidater.php");
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,7 +79,7 @@
                     <a href="Product.php" class="nav-item nav-link"><i class="fa fa-briefcase-medical me-2 text-success"></i>Product</a>
                     <!-- <a href="Reply.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Reply</a> -->
                     <a href="SubCategory.php" class="nav-item nav-link"><i class="fa fa-syringe me-2 text-success"></i>SubCategory</a>
-                    <a href="Viewstock.php" class="nav-item nav-link"><i class="fa fa-user-circle me-2 text-success"></i>View Stock</a>
+                    <a href="Viewstock.php" class="nav-item nav-link"><i class="fa fa-box-open me-2 text-success"></i>View Stock</a>
                     <a href="ViewComplaint.php" class="nav-item nav-link"><i class="fa fa-exclamation-circle me-2 text-success"></i>View Complaint</a>
                     <a href="ViewPharmacist.php" class="nav-item nav-link"><i class="fa fa-user-md me-2 text-success"></i>View Pharmacist</a>
                     <a href="ViewCustomer.php" class="nav-item nav-link"><i class="fa fa-user-circle me-2 text-success"></i>View Customer</a>
@@ -119,8 +125,18 @@
             <!-- Sale & Revenue End -->
 
 
-            <div style="background-image: url('../Assets/Templates/Admin/img/huhu.png'); min-height:720px; background-size: contain;">
-
+            <div style="background-image: url('../Assets/Templates/Admin/img/huhu.png'); min-height:717px; background-size: contain;">
+                <!-- <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto align-self-center">
+                            <div class="site-block-cover-content text-center">
+                                <br>
+                                <br>
+                                <h1 class="mb-0"><strong class="text-success">WEL</strong>COME!!!</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
             </div>
 
 
@@ -130,43 +146,56 @@
 
 
             <!-- Footer Start -->
-            <div class="container-fluid pt-4 px-4">
+            <div class="row pt-5 mt-5 text-center">
+                <div class="col-md-12">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved
+                        <!-- <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"
+                class="text-primary"></a> -->
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+                <!-- <div class="container-fluid pt-4 px-4">
                 <div class="bg-light rounded-top p-4">
                     <div class="row">
                         <div class="col-12 col-sm-6 text-center text-sm-start">
-                            &copy; <a href="#">Pharmacie</a>, All Right Reserved.
-                        </div>
-                        <div class="col-12 col-sm-6 text-center text-sm-end">
-                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed By <a href="https://htmlcodex.com">Njngal...</a>
-                            </br>
-                            <!-- Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
-                        </div>
-                    </div>
+                            &copy; <a href="#">Pharmacie</a>, All rights reserved
+                        </div> -->
+                <!-- <div class="col-12 col-sm-6 text-center text-sm-end"> -->
+                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                <!-- Designed By <a href="https://htmlcodex.com">Njngal...</a> -->
+                <!-- </br> -->
+                <!-- Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
+                <!-- </div> -->
+                <!-- </div>
                 </div>
+            </div> -->
+                <!-- Footer End -->
             </div>
-            <!-- Footer End -->
+            <!-- Content End -->
+
+
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
         </div>
-        <!-- Content End -->
 
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../Assets/Templates/Admin/lib/chart/chart.min.js"></script>
+        <script src="../Assets/Templates/Admin/lib/easing/easing.min.js"></script>
+        <script src="../Assets/Templates/Admin/lib/waypoints/waypoints.min.js"></script>
+        <script src="../Assets/Templates/Admin/lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="../Assets/Templates/Admin/lib/tempusdominus/js/moment.min.js"></script>
+        <script src="../Assets/Templates/Admin/lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="../Assets/Templates/Admin/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-    </div>
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../Assets/Templates/Admin/lib/chart/chart.min.js"></script>
-    <script src="../Assets/Templates/Admin/lib/easing/easing.min.js"></script>
-    <script src="../Assets/Templates/Admin/lib/waypoints/waypoints.min.js"></script>
-    <script src="../Assets/Templates/Admin/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="../Assets/Templates/Admin/lib/tempusdominus/js/moment.min.js"></script>
-    <script src="../Assets/Templates/Admin/lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="../Assets/Templates/Admin/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="../Assets/Templates/Admin/js/main.js"></script>
+        <!-- Template Javascript -->
+        <script src="../Assets/Templates/Admin/js/main.js"></script>
 </body>
 
 </html>

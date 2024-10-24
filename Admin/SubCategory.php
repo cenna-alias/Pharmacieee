@@ -74,7 +74,7 @@ if(isset($_GET["did"]))
 
                     <!-- Submit and Cancel Buttons -->
                     <div class="form-group text-center m-3">
-                        <button type="submit" class="btn btn-primary" name="btn_submit" id="btn_submit">Submit</button>
+                        <button type="submit" class="btn btn-success" name="btn_submit" id="btn_submit">Submit</button>
                         <button type="submit" class="btn btn-secondary" name="btn_cancel" id="btn_cancel">Cancel</button>
                     </div>
                 </div>

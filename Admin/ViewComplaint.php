@@ -40,7 +40,7 @@ include("Head.php");
                                 <td><?php echo $data["complaint_title"]; ?></td>
                                 <td><?php echo $data["complaint_content"]; ?></td>
                                 <td align="center">
-                                    <a href="Reply.php?did=<?php echo $data["complaint_id"]; ?>" class="btn btn-primary btn-sm">Reply</a>
+                                    <a href="Reply.php?did=<?php echo $data["complaint_id"]; ?>" class="btn btn-success btn-sm">Reply</a>
                                 </td>
                             </tr>
                         <?php

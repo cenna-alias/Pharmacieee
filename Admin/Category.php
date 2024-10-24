@@ -1,8 +1,10 @@
 <?php
 include("Head.php");
 include("../Assets/Connection/Connection.php");
+
 $category = "";
 $aid = 0;
+
 if (isset($_POST["btn_category"])) {
 	$category = $_POST["txt_category"];
 	$aid = $_POST["txt_aid"];
@@ -47,7 +49,7 @@ if (isset($_GET["eid"])) {
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title> Add Category</title>
+	<title>Add Category</title>
 </head>
 
 <body>

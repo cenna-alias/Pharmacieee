@@ -133,9 +133,9 @@
 
 .sidebar .navbar .navbar-nav .nav-link:hover,
 .sidebar .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--success);
     background: #FFFFFF;
-    border-color: var(--primary);
+    border-color: var(--success);
 }
 
 .sidebar .navbar .navbar-nav .nav-link i {
@@ -182,7 +182,7 @@
 
 .content .navbar .navbar-nav .nav-link:hover,
 .content .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--success);
 }
 
 .content .navbar .sidebar-toggler,

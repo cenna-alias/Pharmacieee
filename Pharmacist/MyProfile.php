@@ -78,7 +78,7 @@ $data=$result->fetch_assoc();
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-md-6 text-center">
+            <div class="col-md-7 text-center">
                 <a href="EditProfile.php" class="btn btn-primary me-2">Edit Profile</a>
                 <a href="ChangePassword.php" class="btn btn-warning">Change Password</a>
             </div>

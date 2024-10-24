@@ -128,7 +128,7 @@
               </ul>
             </nav>
           </div>
-          <div class="icons">
+          <!-- <div class="icons">
             <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
             <a href="cart.html" class="icons-btn d-inline-block bag">
               <span class="icon-shopping-bag"></span>
@@ -136,7 +136,7 @@
             </a>
             <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
                 class="icon-menu"></span></a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -231,7 +231,7 @@
 
 
               <div class="text-center item mb-4 item-v2">
-                <span class="onsale">Sale</span>
+                <!-- <span class="onsale">Sale</span> -->
                 <a href="shop-single.html"> <img src="./Assets/Templates/Main/images/img1.jpg" alt="Image"></a>
                 <h3 class="text-dark"><a href="shop-single.html">Vicks</a></h3>
                 <p class="price"></p>
@@ -244,15 +244,15 @@
               </div>
 
               <div class="text-center item mb-4 item-v2">
-                <span class="onsale">Sale</span>
+                <!-- <span class="onsale">Sale</span> -->
                 <a href="shop-single.html"> <img src="./Assets/Templates/Main/images/img4.webp" alt="Image"></a>
                 <h3 class="text-dark"><a href="shop-single.html">Vicks Inhaler</a></h3>
                 <p class="price"></p>
               </div>
 
               <div class="text-center item mb-4 item-v2">
-                <a href="shop-single.html"> <img src="./Assets/Templates/Main/images/P4.jpeg" alt="Image"></a>
-                <h3 class="text-dark"><a href="shop-single.html">Aspirin</a></h3>
+                <a href="shop-single.html"> <img src="./Assets/Templates/Main/images/image4.jpg" alt="Image"></a>
+                <h3 class="text-dark"><a href="shop-single.html">Dimetapp</a></h3>
                 <p class="price"></p>
               </div>
 

@@ -1,7 +1,7 @@
 <?php
 include("Head.php");
 include("../Assets/Connection/Connection.php");
-session_start();
+// session_start();
 
 $pharmacist="select * from tbl_pharmacist where pharmacist_id=".$_SESSION['pid'];
 $result=$con->query($pharmacist);

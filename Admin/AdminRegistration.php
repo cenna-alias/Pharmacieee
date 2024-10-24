@@ -1,20 +1,26 @@
 <?php
 include("../Assets/Connection/Connection.php");
+
 $name = "";
 $email = "";
 $password = "";
 $aid = 0;
+
 if (isset($_POST["btn_submit"])) {
   $name = $_POST["txt_name"];
   $email = $_POST["txt_email"];
   $password = $_POST["txt_pw"];
   $aid = $_POST["txt_aid"];
+
   if ($aid == 0) {
     $insQry = "insert into tbl_admin(admin_name,admin_email,admin_password)values('" . $name . "','" . $email . "','" . $password . "')";
 
     if ($con->query($insQry)) {
     }
-  } else {
+
+  }
+
+   else {
     $upQry = "update tbl_admin set admin_name='" . $name . "',admin_email='" . $email . "',admin_password='" . $password . "' where admin_id=" . $aid;
     if ($con->query($upQry)) {
       $aid = 0;
@@ -59,6 +65,7 @@ if (isset($_GET["eid"])) {
 <body>
   <form id="form1" name="form1" method="post" action="">
     <table width="345" border="1">
+
       <tr>
         <td width="165">
           <div align="center">Name
@@ -67,6 +74,8 @@ if (isset($_GET["eid"])) {
           <input required type="text" value="<?php echo $name; ?>" name="txt_name" id="txt_name" title="Name Allows Only Alphabets,Spaces and First Letter      Must Be Capital Letter" pattern="^[A-Z]+[a-zA-Z ]*$" />
           <input type="hidden" name="txt_aid" value="<?php echo $aid; ?>" </td>
       </tr>
+
+
       <tr>
         <td>
           <div align="center">Email
@@ -75,6 +84,8 @@ if (isset($_GET["eid"])) {
           <input required type="email" value="<?php echo $email; ?>" name="txt_email" id="txt_email" />
         </td>
       </tr>
+
+
       <tr>
         <td>
           <div align="center">Password
@@ -84,6 +95,8 @@ if (isset($_GET["eid"])) {
             title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" />
         </td>
       </tr>
+
+
       <tr>
         <td height="54" colspan="2">
           <div align="center">
@@ -92,25 +105,33 @@ if (isset($_GET["eid"])) {
           </div>
         </td>
       </tr>
+
+
     </table>
     <p>&nbsp;</p>
     <table width="820" border="1">
       <tr>
+
         <td width="61">
           <div align="center">Sno</div>
         </td>
+
         <td width="158">
           <div align="center">Name</div>
         </td>
+
         <td width="274">
           <div align="center">Email</div>
         </td>
+
         <td width="155">
           <div align="center">Password</div>
         </td>
+
         <td width="138">
           <div align="center">Action</div>
         </td>
+        
       </tr>
       <?php
       $SelQry = "Select * from tbl_admin";
